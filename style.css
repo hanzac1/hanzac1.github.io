@@ -3,16 +3,54 @@ body {
 }
 
 header {
-  background-color: #134074
+  background-color: #134074;
+  text-align: center;
+  color: #EEF4ED;
+  font-size: 54px;
+  font-family: Verdana, sans-serif;
 }
 
-h1 {
-  color: White;
-  margin-left: 20px;
+nav {
+  color: #EEF4ED;
+  background-color: #13315C;
+}
+ul#navigation_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li#navigation_bar {
+  float: left;
+  padding: 32px;
+  text-align: center;
+  color: #EEF4ED;
+  font-size: 20px;
 }
 
 footer {
-  background-color: #0B2545
+  background-color: #0B2545;
+  color: white;
+}
+ul#contact_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li#contact_bar {
+  float: left;
+  padding: 32px;
+  text-align: center;
+  color: #EEF4ED;
+  font-size: 20px;
+}
+li a {
+  text-decoration: none;
+  color: #EEF4ED;
+}
+li a:hover {
+  color: #8DA9C4;
 }
 
 /*#13315C Darkish Blue*/
