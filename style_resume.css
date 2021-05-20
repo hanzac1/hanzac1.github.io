@@ -1,0 +1,20 @@
+header {
+  background-color: #134074;
+  text-align: center;
+  color: #EEF4ED;
+  font-size: 54px;
+}
+
+footer {
+  background-color: #134074;
+  text-align: center;
+  color: #EEF4ED;
+  font-size: 36px;
+}
+a#index_foot {
+  text-decoration: none;
+  color: inherit;
+}
+a#index_foot:hover {
+  color: #8DA9C4;
+}
